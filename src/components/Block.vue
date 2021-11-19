@@ -1,8 +1,9 @@
-
-<template><Entries /></template>
+<template>
+  <Entry />
+</template>
 
 <script>
-import Entry from "./Entries";
+import Entry from "./Entry";
 
 export default {
   component: { Entry },
