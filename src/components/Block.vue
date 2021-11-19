@@ -6,11 +6,7 @@
 import Entry from "./Entry";
 
 export default {
-  component: { Entry },
-  props: [],
-  data() {},
-  mounted() {},
-  methods: {},
+  components: { Entry },
 };
 </script>
 
