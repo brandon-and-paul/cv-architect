@@ -1,10 +1,11 @@
 <template>
   <Block />
   <PersonalDetails />
+  <div>CV Architect</div>
 </template>
 
 <script>
-import Block from "./Block.vue";
+import Block from "./Block";
 import PersonalDetails from "./PersonalDetails";
 
 export default {
@@ -12,14 +13,11 @@ export default {
     Block,
     PersonalDetails,
   },
-
-  data() {},
-
-  mounted() {},
-
-  methods: {},
+  mounted() {
+    console.log(30);
+  }
 };
 </script>
 
 <style>
-</style> 
+</style>

@@ -1,4 +1,5 @@
 <template>
+  <Resume />
   <div>Hello World</div>
 </template>
 
@@ -7,12 +8,11 @@ import Resume from "./components/Resume";
 import Form from "./components/Form";
 
 export default {
-  component: { Resume, Form },
-  props: [],
-  data() {},
-  mounted() {},
-  methods: {},
-};
+  components: { Resume, Form },
+  mounted() {
+    console.log(30);
+  }
+}
 </script>
 
 <style>
