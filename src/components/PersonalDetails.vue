@@ -1,13 +1,18 @@
 <template>
-  <div></div>
+  <Entry />
 </template>
 
 <script>
-export default {
+import Entry from "./Entry";
 
-}
+export default {
+  component: { Entry },
+  props: [],
+  data() {},
+  mounted() {},
+  methods: {},
+};
 </script>
 
 <style>
-
 </style>
